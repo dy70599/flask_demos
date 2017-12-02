@@ -1,0 +1,17 @@
+body * {
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+
+body div.jumbotron {
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+    background: #50a2f6 url(../images/base-header-overlay.png) repeat top left;
+}
