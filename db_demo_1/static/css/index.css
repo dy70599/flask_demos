@@ -1,0 +1,17 @@
+
+body div.jumbotron {
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+
+}
+
+body #jumbo_first {
+    margin-top: 50px;
+    background: #50a2f6 url(../images/base-header-overlay.png) repeat top left;
+}
+
+body #jumbo_second {
+    background: #79FF79 url(../images/base-header-overlay.png) repeat top left;
+}
