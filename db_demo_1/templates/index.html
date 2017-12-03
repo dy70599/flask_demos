@@ -2,89 +2,28 @@
 
 {% block title %}Index Page{% endblock %}
 
-{% block main %}
-<div class="jumbotron">
+{% block head %}
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block before_main %}
+<div class="jumbotron" id="jumbo_first">
     <div class="container" style="width: 100%; padding: 0px">
         <h1>Hello, world!</h1>
-        <p>..
-            bla
-            bal
-            bal
-            bar
-            abala
-            abarra
-            bara
-            arbar
-            arar
-            .</p>
+        <p>...</p>
         <p>adfas</p>
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-
-
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">
+            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+             Learn more</a></p>
     </div>
-
 </div>
-<div class="jumbotron">
-    <div class="container" style="width: 100%; padding: 0px">
+<div class="jumbotron" id="jumbo_second">
+    <div class="container" style="width: 100%; padding: 0px; ">
         <h1>Hello, world!</h1>
-        <p>..
-            bla
-            bal
-            bal
-            bar
-            abala
-            abarra
-            bara
-            arbar
-            arar
-            .</p>
+        <p>...</p>
         <p>adfas</p>
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
-                <p>adfas</p>
-
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-
-
     </div>
-
 </div>
-
-
 {% endblock %}

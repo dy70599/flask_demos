@@ -2,15 +2,17 @@
 
 {% block title %}Login Page{% endblock %}
 
-{% block main %}
-<div class="jumbotron">
+{% block head %}
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block before_main %}
+<div class="jumbotron" id="jumbo_first">
     <div class="container" style="width: 100%; padding: 0px">
         <h1>Please login:</h1>
-        <p>..
-
-
-
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        <p>..<p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 
 
     </div>
